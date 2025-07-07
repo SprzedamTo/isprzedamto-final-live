@@ -30,6 +30,10 @@ export default function Home() {
           <p>2006 | 152 000 km | 115 KM</p>
           <p>Lokalizacja: Kraków | Dodano: 06.07.2025</p>
         </div>
+
+        <p style={{ marginTop: '60px' }}>
+          🔐 <Link href="/register">Zarejestruj się</Link> lub <Link href="/login">Zaloguj się</Link>
+        </p>
       </main>
     </>
   )
